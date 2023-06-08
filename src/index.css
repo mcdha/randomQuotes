@@ -1,0 +1,42 @@
+nav {
+  position: fixed;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.735);
+}
+
+.navbar-brand {
+  color: aliceblue;
+}
+
+.navbar-brand:hover {
+  color: aliceblue;
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
+.nav-link:hover {
+  color: rgba(226, 19, 19, 0.527);
+  font-size: larger;
+}
+
+.hvr-underline-from-center:before {
+  background-color: brown;
+}
+
+button {
+  width: 80%;
+}
+
+/* button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+.text-center {
+  color: rgba(226, 19, 19, 0.527);
+}
+} */
+
+/* ________________________________Trigger */

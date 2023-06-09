@@ -1,6 +1,7 @@
 import React from 'react'
-import Trigger from './Trigger'
-// import Showshere from './Showshere'
+import { Link } from 'react-router-dom'
+
+
 
 const Navbar = () => {
    
@@ -15,13 +16,13 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item hvr-underline-from-center">
-            <a className="nav-link" aria-current="page" href="#">Home</a>
+            <Link className="nav-link" aria-current="page" to='/home'>Home</Link>
           </li>
           <li className="nav-item hvr-underline-from-center">
-            <a className="nav-link" href="#">Link</a>
+            <Link className="nav-link" to='/quotes'>Random Quotes</Link>
           </li>
           <li className="nav-item hvr-underline-from-center">
-            <a className="nav-link">Random Quotes</a>
+            <Link className="nav-link" to='/todo'>Todo Lists</Link>
           </li>
         </ul>
         <form className="d-flex" role="search">
@@ -31,7 +32,6 @@ const Navbar = () => {
       </div>
     </div>
   </nav>
-  {/* <Showshere /> */}
   </div>
   )
 }

@@ -18,6 +18,16 @@ nav {
   color: aliceblue;
 }
 
+.home {
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.735);
+}
+
+.home:hover {
+  color: rgba(226, 19, 19, 0.527);
+  font-size: 5rem;
+}
+
 .nav-link:hover {
   color: rgba(226, 19, 19, 0.527);
   font-size: larger;

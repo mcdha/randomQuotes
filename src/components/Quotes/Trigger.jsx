@@ -4,11 +4,10 @@ import React, { useState } from 'react'
 
 function Trigger() {
 
-    const [data, setData] = useState("");
+  const [data, setData] = useState("");
 
   const fetchData = () => {
     fetch('https://dummyjson.com/quotes/random')
-    // fetch('https://dog.ceo/api/breeds/image/random')
       .then(response => response.json())
       .then(data => {
         setData(data);
@@ -18,29 +17,8 @@ function Trigger() {
       });
     };
 
-    // const fetchData1 = () => {
-    //     fetch('https://dog.ceo/api/breeds/image/random')
-    //       .then(response => response.json())
-    //       .then(data => {
-    //         setData(data);
-    //       })
-    //       .catch(error => {
-    //         console.error(error);
-    //       });
-    //     };
-
   return (
    <>
- {/* button.addEventListener("click", function() {
-      Swal.fire({
-        data: {data.author},
-        text: 'Modal with a custom image.',
-        imageUrl: 'https://unsplash.it/400/200',
-        imageWidth: 400,
-        imageHeight: 200,
-        imageAlt: 'Custom image',
-      })
-}); */}
     
 <div id='container' className='container-fluid'>
        
